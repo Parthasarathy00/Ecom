@@ -1,32 +1,76 @@
-body {
-    font-family: Arial, sans-serif;
+/* General Reset */
+body, html {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centering the login container */
+.login-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Form Headers */
+.login-container h2 {
     text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
 }
 
-header {
-    background: #333;
-    color: white;
-    padding: 15px;
+/* Input Fields */
+form {
+    margin-bottom: 20px;
 }
 
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
 }
 
-.hero {
-    background: lightgray;
-    padding: 50px;
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
 }
 
-.btn {
-    display: inline-block;
-    background: red;
-    color: white;
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+}
+
+/* Submit Buttons */
+button {
+    width: 100%;
     padding: 10px 20px;
-    text-decoration: none;
-    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
