@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> All Product New Joker Mens Wear</title>
+	<link rel="stylesheet" type="text/css" href="joker.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+	<nav>
+        <div class="logo">
+            <img src="p.jpg" alt="Logo Image">
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#"style="color: black;">Home</a></li>
+            <li><a href="#" style="color:black;">about us</a></li>
+            <li><a href="#"style="color: black;">Products</a></li>
+            <li><a href="#"style="color: black;">Services</a></li>
+            <li><a href="#"style="color: black;">Contact Us</a></li>
+			<li><img src="cart.png" style="width: 25px; height: 25px;"></li>
+            <li><a href="login.html" class="login-button">Login / Register</a></li>
+
+            
+        </ul>
+    </nav>
+<!------------single product details-------->
+	<div class="small-container">
+		<div class="row">
+			<div class="col-2">
+				<img src="4.jpg" width="50%">
+			</div>
+			<div class="col-2">
+				<p>Home / T-Shirt</p>
+				<h1>Yellow Colour T-Shirts</h1>
+				<h4>Rs:350</h4>
+				<select>
+					<option>Select Size</option>
+					<option>XXl</option>
+					<option>Xl</option>
+					<option>L</option>
+					<option>M</option>
+				</select>
+				<input type="number" value="1">
+				<a href="" class="btn">Add to cart</a>
+				<h3>Product Details</h3>
+				<p>Give your summer wardrobe a style update with the HRX Men's Active T-shirt.Team 	it with a pair of shorts for your morni ng workout or a denims for an evening out with the guys.</p>
+			</div>
+			
+		</div>
+		
+	</div>
+<!------------featured products------------->
+<div class="small-container">
+	<h2 class="title">Featured Product</h2>
+	<div class="row row-2">
+		<h2>All Products</h2>
+	</div>
+	<div class="row">
+	<div class="col-4">
+		<a href="index2.html"><img src="5.jpg"></a>
+		<h4><a href="index2.html">Printed Shirts</a></h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-0"></i>
+		</div>
+		<p>Rs:550</p>		
+	</div>
+	<div class="col-4">
+		<a href="index2.html"><img src="6.jpg"></a>
+		<h4><a href="index2.html">Printed T-shirts</a></h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-0"></i>
+		</div>
+		<p>Rs:250</p>		
+	</div>
+	<div class="col-4">
+		<a href="index2.html"><img src="7.jpg"></a>
+		<h4><a href="index2.html">Jeans Pant</a></h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-0"></i>
+		</div>
+		<p>Rs:750</p>		
+	</div>
+</div>
+<!------------footer----------->		
+<footer>
+<div id="footer" class="footer0">
+<h1>New Joker Mens Wear</h1>
+</div>
+<div class="footer1 ">
+Connect with us at<div class="social-media">
+<a href="#">
+<ion-icon name="logo-facebook"></ion-icon>
+</a>
+<a href="#">
+<ion-icon name="logo-youtube"></ion-icon>
+</a>
+<a href="#">
+<ion-icon name="logo-instagram"></ion-icon>
+</a>
+</div>
+</div>
+<div class="footer2">
+<div class="product">
+<div class="heading">Products</div>
+<div class="div">Sell your Products</div>
+<div class="div">Advertise</div>
+<div class="div">Pricing</div>
+<div class="div">Product Buisness</div>
+
+</div>
+<div class="services">
+<div class="heading">Services</div>
+<div class="div">Return</div>
+<div class="div">Cash Back</div>
+<div class="div">Affiliate Marketing</div>
+<div class="div">Others</div>
+</div>
+<div class="Company">
+<div class="heading">Company</div>
+<div class="div">Complaint</div>
+<div class="div">Careers</div>
+<div class="div">Affiliate Marketing</div>
+<div class="div">Support</div>
+</div>
+<div class="Get Help">
+<div class="heading">Get Help</div>
+<div class="div">Help Center</div>
+<div class="div">Privacy Policy</div>
+<div class="div">Terms</div>
+<div class="div">Login</div>
+</div>
+</div>
